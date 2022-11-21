@@ -59,7 +59,7 @@
     "template-install": "npm i && npm run tests-i && npm run css-i && npm run utils-i && npm run formatting-i && npm run stylelint-i",
     "css-i": "npm i sass",
     "tests-i": "npm i @testing-library/react-hooks@^7.0.0",
-    "utils-i": "npm i localforage nanoid",
+    "utils-i": "npm i localforage nanoid valtio valtio-persist",
     "postcss-i": "npm i --save-dev postcss-loader postcss-flexbugs-fixes postcss-preset-env postcss-normalize",
     "formatting-i": "npm i --save-dev eslint-plugin-prettier eslint-config-prettier eslint-import-resolver-typescript eslint-import-resolver-custom-alias",
     "stylelint-i": "npm i --save-dev stylelint stylelint-config-prettier-scss stylelint-config-standard stylelint-config-recommended-scss stylelint-declaration-block-no-ignored-properties stylelint-number-z-index-constraint stylelint-color-format stylelint-high-performance-animation stylelint-csstree-validator stylelint-order"
