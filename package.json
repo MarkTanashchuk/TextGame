@@ -60,6 +60,7 @@
     "css-i": "npm i sass",
     "tests-i": "npm i @testing-library/react-hooks@^7.0.0",
     "utils-i": "npm i localforage nanoid",
+    "postcss-i": "npm i --save-dev postcss-loader postcss-flexbugs-fixes postcss-preset-env postcss-normalize",
     "formatting-i": "npm i --save-dev eslint-plugin-prettier eslint-config-prettier eslint-import-resolver-typescript eslint-import-resolver-custom-alias",
     "stylelint-i": "npm i --save-dev stylelint stylelint-config-prettier-scss stylelint-config-standard stylelint-config-recommended-scss stylelint-declaration-block-no-ignored-properties stylelint-number-z-index-constraint stylelint-color-format stylelint-high-performance-animation stylelint-csstree-validator stylelint-order"
   },
@@ -86,6 +87,10 @@
     "eslint-import-resolver-custom-alias": "^1.3.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-prettier": "^4.2.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^7.0.1",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.8.3",
     "stylelint": "^14.15.0",
     "stylelint-color-format": "^1.1.0",
     "stylelint-config-prettier": "^9.0.3",
