@@ -1,0 +1,47 @@
+.list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+
+  width: 100%;
+  min-width: 100%;
+  margin-bottom: 20px;
+
+  &__item {
+    display: flex;
+
+    list-style-type: none;
+
+    cursor: pointer;
+
+    &__line {
+      width: 1px;
+      min-width: 1px;
+      height: 100%;
+
+      background: rgb(255, 255, 255);
+
+      transition: 150ms transform ease-in-out;
+    }
+
+    &:hover &__line {
+      transform: scaleX(3);
+    }
+
+    &__button {
+      padding-left: 16px;
+
+      border: none;
+
+      background: none;
+      box-shadow: none;
+
+      color: rgb(255, 255, 255);
+
+      font-family: "Space Mono", monospace;
+      text-align: left;
+    }
+  }
+}
